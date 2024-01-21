@@ -2,5 +2,8 @@ mod arraylist;
 use arraylist::ArrayList;
 
 fn main() {
-    println!("{:?}", ArrayList::<&str>::default());
+    let my_list: ArrayList<&str> = ArrayList::default();
+    println!("{:?}", my_list);
+
+    
 }
