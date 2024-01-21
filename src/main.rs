@@ -1,3 +1,6 @@
+mod arraylist;
+use arraylist::ArrayList;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{:?}", ArrayList::<&str>::default());
 }
